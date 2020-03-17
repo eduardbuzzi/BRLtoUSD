@@ -28,7 +28,7 @@ read -p "Quanto de Dolar Comercial deseja comprar? " qtddDOLARCOMERCIAL
 total=$(echo $dolarCOMERCIAL*$qtddDOLARCOMERCIAL | bc)
 echo '$'"$qtddDOLARCOMERCIAL"' custam R$'"$total"
 echo
-echo "Deseja salvar essa cotação em algum lugar?"
+echo "Deseja salvar esses dados em algum lugar?"
 echo "Caso não deseje, apenas deixe em branco e pressione Enter."
 echo "Seu caminho atual de padrao esta em $PWD"
 read -p "Local onde quer salvar/nome do arquivo: " LOCAL
@@ -44,7 +44,7 @@ read -p "Quanto de Dolar Turismo deseja comprar? " qtddDOLARTURISMO
 total=$(echo $dolarTURISMO*$qtddDOLARTURISMO | bc)
 echo '$'"$qtddDOLARTURISMO"' custam R$'"$total"
 echo
-echo "Deseja salvar essa cotação em algum lugar?"
+echo "Deseja salvar esses dados em algum lugar?"
 echo "Caso não deseje, apenas deixe em branco e pressione Enter."
 echo "Seu caminho atual de padrao esta em $PWD"
 read -p "Local onde quer salvar/nome do arquivo: " LOCAL
